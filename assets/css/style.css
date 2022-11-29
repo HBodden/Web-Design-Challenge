@@ -1,9 +1,17 @@
 /* HW 11 style file */
-h1{
+.h1 {
 
     font-size: 40px;
-    color: deepskyblue;
+    color: rgb(22, 173, 223);
 }
-ul {
+.navbar ul {
     margin-left: 75%;
+  }
+
+  .box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #fff;
   }

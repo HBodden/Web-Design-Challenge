@@ -12,16 +12,49 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style.css" media="screen">
 
   </head>
 
   <body>
     <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">Homepage</a></li>
+                <li><a class="dropdown-item" href="visualization/humidity.html">Humidty</a></li>
+                <li><a class="dropdown-item" href="visualization/cloudiness.html">Cloudiness</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="visualization/wind.html">Windspeed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+            
+            </ul>
+          </div>
+      </div>
+    </nav>
     <!-- End of navbar -->
 
     <!-- Start of container -->
-
+<img src="../assets/images/Latitude_v_WindSpeed_Plot.png" alt="">
+<img src="../assets/images/NHem_WindSpeed_v_Lat_LinearRegPlot.png" alt="">
+<img src="../assets/images/SHem_WindSpeed_v_Lat_LinearRegPlot.png" alt="">
           <!-- Start of Visualizations imageNav Area -->
           <!-- End of the Visualizations imageNav Area -->
 
