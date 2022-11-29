@@ -2,5 +2,8 @@
 h1{
 
     font-size: 40px;
-    background: deepskyblue;
+    color: deepskyblue;
 }
+ul {
+    margin-left: 75%;
+  }
