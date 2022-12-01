@@ -5,7 +5,10 @@ h1 {
     color: rgb(22, 173, 223);
 }
 .navbar ul {
-    margin-left: 75%;
+  margin-left: 75%;
+  background-color: rgb(31, 196, 201); 
+  color: black;
+  
   }
 
   .box {
@@ -19,3 +22,17 @@ h1 {
 
     color: rgb(22, 173, 223);
 }
+
+.button{
+    /* Put a 15-pixel margin at the bottom of the heading. */
+    margin-bottom: 15px;
+    /* This will color the heading font white. */
+    color: black;
+    /* The background of the heading element will now be black. */
+    background-color: rgb(31, 196, 201);
+  
+}
+/* #images {
+  padding-top: 15px;
+  text-align: center;
+} */
